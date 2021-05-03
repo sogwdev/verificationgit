@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('https://verificationheroku.herokuapp.com/start', function () {
+Route::get('/', function () {
     return view('hello.hw');
 });
